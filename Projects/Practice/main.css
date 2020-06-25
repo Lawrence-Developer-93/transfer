@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700&display=swap');
+@import "reset.css";
+@import "css/header.css";
+@import "css/top-jumbo.css";
+@import "css/japan.css";
+@import "css/japan-thumbs.css";
+@import "css/advertising.css";
+@import "css/japan-extended.css";
+@import "css/hotels-restaurant.css";
+@import "css/china.css";
+@import "css/china-photos.css";
+@import "css/paris.css";
+@import "css/paris-photos.css";
+@import "css/comfortable.css";
+@import "css/check-out.css";
+@import "css/mobile-photos.css";
+
+
+* {
+    box-sizing: border-box;
+}
+ 
+html {
+    width: 100%;
+    min-height: 100%;
+    font-family: sans-serif;
+}
+ 
+body {
+    width: inherit;
+    min-height: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*=========== WIDESCREEN ===================*/
+
+@media only screen and (max-width: 1407px) {
+  
+}
+
+
+
+/*=========== LAPTOPS ===================*/
+
+@media only screen and (max-width: 1215px) {
+  
+}
+
+
+
+/*============ TABLETS ==================*/
+
+@media only screen and (max-width: 1023px) {
+ 
+}
+
+
+/*========== MOBILE PHONE ===============*/
+
+@media only screen and (max-width: 767px) {
+  
+}

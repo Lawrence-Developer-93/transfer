@@ -1,0 +1,120 @@
+#blue-print{
+    background: rgb(30,87,153); /* Old browsers */
+    background: -moz-linear-gradient(-45deg, rgba(30,87,153,1) 0%, rgba(41,137,216,1) 50%, rgba(32,124,202,1) 51%, rgba(125,185,232,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(-45deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(135deg, rgba(30,87,153,1) 0%,rgba(41,137,216,1) 50%,rgba(32,124,202,1) 51%,rgba(125,185,232,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    overflow: auto;
+    color: #fff;
+}
+
+#blue-print .container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#blue-print .left-side {
+    width: 45%;
+    float: left;
+    text-align: center;
+    padding: 170px 0;
+}
+
+#blue-print .left-side img {
+    width: 70%;
+    -webkit-box-shadow: 10px 10px 78px -7px rgba(0,0,0,0.47);
+    -moz-box-shadow: 10px 10px 78px -7px rgba(0,0,0,0.47);
+    box-shadow: 10px 10px 78px -7px rgba(0,0,0,0.47);
+}
+
+#blue-print .right-side {
+    width: 55%;
+    float: left;
+    padding: 170px 0;
+}
+
+#blue-print .right-side h1 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin-bottom: 70px;
+}
+
+#blue-print .right-side .info-box::after {
+    content: "";
+    display: table;
+    clear: both;
+}   
+
+#blue-print .right-side .info-box {
+    padding: 0px 60px 60px 0px;
+}
+
+#blue-print .right-side .info-box .col-1 {
+    width: 30%;
+    float: left;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle {
+    width: 134px;
+    height: 134px;
+    border-radius: 50%;
+    border: 2px dashed #fff;
+    position: relative;
+    bottom: 9px;
+    right: 9px;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle .icon-blue {
+    font-size: 4.5rem;
+    position: relative;
+    top: 27px;
+    left: 33px;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle .icon-blue .fab:hover {
+    color: #FEA83B;
+    transition: ease-in-out 0.3s;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle .icon-mic {
+    font-size: 4.5rem;
+    position: relative;
+    top: 27px;
+    left: 40px;
+}
+
+#blue-print .right-side .info-box .col-1 .icon-container .dashed-circle .icon-mic .fas:hover {
+    color: #FEA83B;
+    transition: ease-in-out 0.3s;
+}
+
+#blue-print .right-side .info-box .col-2 {
+    width: 70%;
+    float: left;
+}
+
+#blue-print .right-side .info-box .col-2 h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+#blue-print .right-side .info-box .col-2 p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+#blue-print .right-side .info-box .col-2 a {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-bottom: 15px;
+    color: #FEA83B;
+}

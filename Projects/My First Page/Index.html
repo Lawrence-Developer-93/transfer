@@ -1,0 +1,54 @@
+<html>
+
+    <header>
+        <title>My First Page</title>
+    </header>
+
+    <body>
+        <form action="/register.php" method="POST">
+            <div>
+                <label>Email Address</label>
+                <input type="email" name="email" placeholder="LawrenceMargaja@gmail.com" required>
+            </div>
+            <div>
+                <label>First Name</label>
+                <input type="text" name="fname" placeholder="Lawrence" required>
+            </div>
+            <div>
+                <label>Last Name</label>
+                <input type="text" name="lname" placeholder="Margaja" required>
+            </div>
+            <div>
+                <label>Gender</label>
+                <select name="gender">
+                    <option value="Male">
+                        Male
+                    </option>
+                    <option value="Female" selected>
+                        Female      
+                    </option>
+                    <option value="Unknown">
+                        I'd rather not say
+                    </option>
+                </select>
+            </div>
+            <div>
+                <label>Relatonship Status</label>
+                <input type="radio" name="relationship" value="single"> Single <br/>
+                <input type="radio" name="relationship" value="married"> Married <br/>
+            </div>
+            <div>
+                <label>Password</label>
+                <input type="password" name="password" required>
+            </div>
+            <div>
+                <label>Description</label>
+                <textarea rows="20" cols="50" name="Description"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="SUBMIT">
+            </div>
+        </form>
+    </body>
+
+</html>

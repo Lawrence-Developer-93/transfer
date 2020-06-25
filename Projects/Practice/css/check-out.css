@@ -1,0 +1,67 @@
+#check-out {
+	width: 100%;
+	height: 100vh;
+	background: url(https://images.angelpub.com/2013/28/20302/side-pool-lean-relax.jpg);
+	background-size: cover;
+	background-position: left;
+	overflow: hidden;
+}
+
+#check-out .container {
+	width: 44%;
+	background: rgb(0,0,0);
+	background: linear-gradient(90deg, rgba(0,0,0,0.5886729691876751) 100%, rgba(0,0,0,0.3169642857142857) 100%, rgba(0,0,0,0.5102415966386555) 100%);
+	margin: 100px 0 0 50px;	
+	overflow: auto;
+}
+
+#check-out .container .header p {
+	font-size: 3rem;
+	color: #fff;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 20px;
+}
+
+#check-out .container .header span{
+	color: orange;
+}
+
+
+
+/*=========== 4K SCREENS ===================*/
+
+@media only screen and (max-width: 1215px) {
+  
+}
+
+
+
+/*=========== WIDESCREEN ===================*/
+
+@media only screen and (max-width: 1407px) {
+  
+}
+
+
+
+/*=========== LAPTOPS ===================*/
+
+@media only screen and (max-width: 1215px) {
+  
+}
+
+
+
+/*============ TABLETS ==================*/
+
+@media only screen and (max-width: 1023px) {
+ 
+}
+
+
+/*========== MOBILE PHONE ===============*/
+
+@media only screen and (max-width: 767px) {
+  
+}

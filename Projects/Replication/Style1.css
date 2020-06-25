@@ -1,0 +1,194 @@
+* {
+    text-decoration: none;
+    font-style: sans-serif;
+}
+
+html {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: #013481;
+    width: 100%;
+    padding: 20px;
+    color: #fff;
+}
+
+header .logo-area {
+    display: inline-block;
+    width: 24.9%;
+    text-align: left;
+    color: #fff;
+}
+
+header .logo-area a{
+    color: #fff;
+    font-size: 20px;
+}
+
+
+header .menu {
+    display: inline-block;
+    width: 24.9%;
+    text-align: left;
+    border-right: 1px solid #fff;
+}
+
+header .menu .Yen {
+    display: inline-block;
+    border-right: 1px solid #fff;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 13px;
+}
+
+header .menu .home {
+    display: inline-block;
+    padding-left: 15px;
+    font-size: 13px;
+}
+
+header .icon-links {    
+    display: inline-block;
+    width: 24.9%;
+    text-align: left;
+    border-right: 1px solid #fff;
+}
+
+header .icon-links a{    
+    padding: 0 20px;
+    color: #fff;
+    font-size: 15x;
+}
+
+header .icon-links .groups {
+    display: inline-block;
+}
+
+header .icon-links .messages {
+    display: inline-block;
+}
+
+header .icon-links .notifications {
+    display: inline-block;
+}
+
+header .icon-links .privacy {
+    display: inline-block;
+    text-align: right;
+
+}
+
+header .search-area {
+    display: inline-block;
+    width: 24.9%;
+    text-align: center;
+}
+
+header .search-area  .search-icon{
+    display: inline-block;
+    padding-right: 10px;
+}
+
+header .search-area .search-box {
+    display: inline-block;
+}
+
+header .search-area .search-erase {
+    display: inline-block;
+    padding-left: 10px;
+}
+
+#top-area {
+    padding: 150px 20px 100px 20px;
+    height: 150px;
+    background: url(https://pbs.twimg.com/media/CWehqbzWIAEJUap.png) no-repeat center center scroll; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-attachment: scroll;
+  background-size: cover;
+  opacity: 0.8;
+}
+
+#top-area .profile-info {
+    display: inline-block;
+    opacity: 1.0;
+}
+
+#top-area .profile-info .user-image {
+    display: inline-block;
+}
+
+#top-area .profile-info .user-image img{
+    display: inline-block;
+    border-radius: 50%;
+    opacity: 1.0 !important;     
+}
+
+#top-area .user-details {
+    vertical-align: top;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: black;
+    opacity: 1.0 !important;
+}
+
+#top-area .user-details .update {
+    display: inline-block;
+    opacity: 1.0 !important;
+}
+
+#top-area .profile-info .user-details .update {
+    display: inline-block;
+    opacity: 1.0 !important;
+}
+
+#top-area .profile-info .user-details .update a{
+    display: inline-block;
+    padding: 20px;
+    background: rgba(255,255,255,.2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    opacity: 1.0 !important;
+}
+
+#top-area .user-details .update a{
+    display: inline-block;
+    opacity: 1.0 !important;
+}
+
+#top-area .user-details .view {
+    display: inline-block;
+    padding: 20px;
+    opacity: 1.0 !important;
+}
+
+#top-area .profile-info .user-details .view {
+    display: inline-block;
+    opacity: 1.0 !important;
+}
+
+#top-area .user-details .view a{
+    display: inline-block;
+    opacity: 1.0 !important;
+}
+
+#top-area .profile-info .user-details .view a{
+    display: inline-block;
+    padding: 20px;
+    background: rgba(255,255,255,.2);
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+    opacity: 1.0 !important;
+}
+
+#top-area .user-image .spotlight {
+    border-radius: 50%;
+    margin-top: -30px;
+    margin-left: 50px;
+    opacity: 1.0 !important;
+}

@@ -1,0 +1,61 @@
+html {
+	margin: 0;
+	padding: 0;
+}
+
+
+header {
+	width: 1349px;
+	height: 100px;
+}
+
+header .container {
+	width: 100%;
+	height: 100%;
+}
+
+header .container .box-1 {
+	width: 50%;
+	height: 100px;
+	background-color: blue;
+	display: inline-block;
+}
+
+header .container .box-2 {
+	width: 50%;
+	height: 100px;
+	background-color: red;
+	display: inline-block;
+}
+
+
+#training {
+	width: 1349px;
+	height: 100%;
+}
+
+#training .container {
+	width: 100%;
+	height: 100%;
+}
+
+#training .container .left-nav {
+	width: 20%;
+	height: 100px;
+	background-color: green;
+	display: inline-block;
+}
+
+#training .container .center-box {
+	width: 60%;
+	height: 100px;
+	background-color: grey;
+	display: inline-block;
+}
+
+#training .container .right-nav {
+	width: 20%;
+	height: 100px;
+	background-color: yellow;
+	display: inline-block;
+}

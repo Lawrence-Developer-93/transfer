@@ -1,0 +1,173 @@
+#japan-thumbs {
+	max-height: 667px;
+	width: 100%;
+	height: 100%;
+}
+
+#japan-thumbs .left {
+	width: 100%;
+	height: 44%;
+	background-color: grey;
+	float: left;
+}
+
+#japan-thumbs .left p {
+	font-size: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------- PHOTOS ----------------------------*/
+
+
+#japan-thumbs .left .photos-japan {
+	list-style: none;
+    width: 100%;
+    display: block;
+}
+
+#japan-thumbs .left .photos-japan li {
+	display: block;
+    float: left;
+    width: 25%;
+}
+
+#japan-thumbs .left .photos-japan .photo {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    overflow: hidden;  
+    background-color: #000;
+}
+
+#japan-thumbs .left .photos-japan .photo img {
+	opacity: 0.5;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.3s, opacity 0.5s;
+}
+#japan-thumbs .left .photos-japan .photo img:hover {
+	opacity: 1;
+    transform: scale(1.03); 
+}
+
+
+
+
+
+
+
+
+/*=========== WIDESCREEN ===================*/
+
+@media only screen and (max-width: 1407px) {
+  
+}
+
+
+
+/*=========== LAPTOPS ===================*/
+
+@media only screen and (max-width: 1215px) {
+  
+}
+
+
+
+/*============ TABLETS ==================*/
+
+@media only screen and (max-width: 1023px) {
+ 
+}
+
+
+/*========== MOBILE PHONE ===============*/
+
+@media only screen and (max-width: 767px) {
+  #japan-thumbs {
+  	background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  }
+}
+
+
+
+
+  @media only screen and (max-width: 320px) {
+    #japan-thumbs {
+        display: none;
+    }
+
+    #mobile-photos .left-mobile .photos-mobile {
+    list-style: none;
+    width: 100%;
+    display: block;
+}
+
+
+#japan {
+    height: 50vh;
+}
+
+
+#japan .container-japan .discover .float h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    color: white;
+}
+
+#japan .container-japan .discover .float {
+    float: left;
+    height: 50%;
+    width: 80%;
+    margin: 80px 0 0 40px;
+}
+
+
+
+/*=========== PHOTOS ====================*/
+
+
+#mobile-photos .left-mobile .photos-mobile li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+
+#mobile-photos .left-mobile .photos-mobile .photo-mobile {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;  
+    background-color: #000;
+}
+
+#mobile-photos .left-mobile .photos-mobile .photo-mobile img {
+    opacity: 0.5;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.3s, opacity 0.5s;
+}
+
+#mobile-photos .left-mobile .photos-mobile .photo-mobile img:hover {
+    opacity: 1;
+    transform: scale(1.03); 
+}
+
+
+  
+
+
+}

@@ -1,0 +1,677 @@
+#advertising {
+	height: 100vh;
+	width: 100%;
+	background: url(https://cdn.pixabay.com/photo/2017/08/02/13/20/people-2571590_960_720.jpg); 
+	background-size: cover;
+	background-position: cover;
+	overflow: hidden;
+}
+
+#advertising .container-advertising {
+	width: 100%;
+	height: 100%;
+}
+
+#advertising .filter {
+	width: 42%;
+	background: linear-gradient(rgba(0,0,0,0.4738270308123249) 100%, rgba(254,254,254,1) 100%, rgba(255,255,255,0.196516106442577) 100%);
+	margin-left: 100px;
+	margin-top: 100px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#advertising .container-advertising .float-header {
+	height: 100%;
+	width: 100%;	
+	display: block;
+}
+
+#advertising .container-advertising .float-header .header3 {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 5%;
+}
+
+#advertising .container-advertising .float-header .header3 h3 {
+	font-size: 2.2rem;
+	font-weight: 700;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#advertising .container-advertising .float-header .header3 h3 span.orange {
+	color: orange;
+}
+
+#advertising .container-advertising .float-header .header4 {
+	width: 80%;
+	height: 100%;
+	margin-left: 11%;
+}
+
+#advertising .container-advertising .float-header .header4 h4 {
+	font-size: 1.5rem;
+	font-weight: 700;
+	padding-bottom: 50px;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+#advertising .container-advertising .float-header .header4 h4 span.orange {
+	color: orange;
+}
+
+#advertising .container-advertising .float-deals {
+	height: 100%;
+	width: 100%;
+	display: block;
+} 
+
+#advertising .container-advertising .float-deals .ad-buttons {
+	height: 100px;
+	width: 81%;
+	margin-left: 12%;
+	text-transform: uppercase;
+}
+
+#advertising .container-advertising .float-deals .ad-buttons .orange1 {
+	display: inline-block;
+	margin-left: 16%;
+	margin-top: 10%;
+	font-weight: 600;
+}
+
+#advertising .container-advertising .float-deals .ad-buttons .orange2 {
+	display: inline-block;
+	font-weight: 600;
+}
+
+#advertising .container-advertising .float-deals .ad-buttons .orange1 a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	padding: 15px;
+	border: 1px solid orange;
+	border-radius: 45px;
+}
+
+#advertising .container-advertising .float-deals .ad-buttons .orange1 a:hover {
+	background-color: #d47808;
+	transition: ease-in-out 0.4s;
+	border: 1px solid #d47808;
+}
+
+#advertising .container-advertising .float-deals .ad-buttons .orange2 a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 15px;
+	padding: 15px;
+	border: 1px solid orange;
+	border-radius: 45px;
+}
+
+#advertising .container-advertising .float-deals .ad-buttons .orange2 a:hover {
+	background-color: #d47808;
+	transition: ease-in-out 0.4s;
+	border: 1px solid #d47808;
+}
+
+#advertising .container-advertising .promos {
+	height: 100%;
+	display: block;
+	margin-left: 22%;
+}
+
+#advertising .container-advertising .promos .links{
+	width: 75%;
+	padding: 10px 15px;
+	border: 1px solid #fff;
+	border-radius: 8px;
+}
+
+#advertising .container-advertising .promos ul li {
+	padding: 10px 0;
+}
+
+#advertising .container-advertising .promos ul li a {
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5rem;
+}
+
+#advertising .container-advertising .promos ul li a:hover {
+	border-bottom: 2px solid orange;
+	transition: ease-in-out 0.1s;
+}
+
+#advertising .container-advertising .promos .far {
+	color: orange;
+	font-size: 20px;
+	margin-right: 15px;
+	position: relative;
+    top: -1px;
+}
+
+
+
+
+
+/*=========== WIDESCREEN ===================*/
+
+@media only screen and (max-width: 1407px) {
+  
+}
+
+
+
+/*=========== LAPTOPS ===================*/
+
+@media only screen and (max-width: 1215px) {
+  
+}
+
+
+
+/*============ TABLETS ==================*/
+
+@media only screen and (max-width: 1024px) {
+ 
+
+	#advertising {
+    height: 100vh;
+    width: 100%;
+    background: url(https://cdn.pixabay.com/photo/2017/08/02/13/20/people-2571590_960_720.jpg);
+    background-size: cover;
+    background-position: cover;
+    overflow: hidden;
+	}
+
+
+	#advertising .container-advertising {
+    width: 100%;
+    height: 100%;
+	}
+
+
+	#advertising .container-advertising .filter {
+    width: 56%;
+    background: linear-gradient(rgba(0,0,0,0.4738270308123249) 100%, rgba(254,254,254,1) 100%, rgba(255,255,255,0.196516106442577) 100%);
+    margin-left: 50px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+	}
+
+
+	#advertising .container-advertising .float-header {
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    display: block;
+	}
+
+
+	#advertising .container-advertising .float-header .header3 {
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+	}
+
+
+	#advertising .container-advertising .float-header .header3 h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+	}
+
+
+	#advertising .container-advertising .float-header .header3 h3 span.orange {
+    color: orange;
+	}
+
+
+	#advertising .container-advertising .float-header .header4 {
+    max-height: 100px;
+    width: 80%;
+    height: 100%;
+    margin-left: 55px;
+	}
+
+
+	#advertising .container-advertising .float-header .header4 h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #fff;
+    text-transform: uppercase;
+	}
+
+
+
+	#advertising .container-advertising .float-header .header4 h4 span.orange {
+    color: orange;
+	}
+
+
+	#advertising .container-advertising .float-deals {
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    display: block;
+	}
+
+
+	#advertising .container-advertising .promos {
+    max-height: 200px;
+    height: 100%;
+    display: block;
+    margin-left: 115px;
+	}
+
+
+	#advertising .container-advertising .promos .links {
+    width: 310px;
+    padding: 10px 15px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+	}
+
+
+	ol, ul {
+    list-style: none;
+	}
+
+
+	#advertising .container-advertising .promos ul li {
+    padding: 10px 0;
+	}
+
+
+	#advertising .container-advertising .promos .far {
+    color: orange;
+    font-size: 20px;
+    margin-right: 15px;
+    position: relative;
+    top: -1px;
+	}
+
+
+
+	#advertising .container-advertising .float-deals .ad-buttons {
+    height: 100px;
+    width: 81%;
+    margin-left: 68px;
+    text-transform: uppercase;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange1 {
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    margin-left: 65px;
+    margin-top: 40px;
+    font-weight: 600;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid orange;
+    border-radius: 45px;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange2 {
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    font-weight: 600;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 15px;
+    border: 1px solid orange;
+    border-radius: 45px;
+	}
+
+
+
+}
+
+
+/*========== MOBILE PHONE ===============*/
+
+@media only screen and (max-width: 767px) {
+  #advertising {
+  	background: #1e5799; /* Old browsers */
+background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  	width: 100%;
+  	height: 100vh;
+  }
+
+
+  #advertising .container-advertising {
+    width: 100%;
+    height: 100%;
+	}
+
+  #advertising .filter {
+    width: 87%;
+    background: linear-gradient(rgba(0,0,0,0.4738270308123249) 100%, rgba(254,254,254,1) 100%, rgba(255,255,255,0.196516106442577) 100%);
+    margin-left: 25px;
+    margin-top: 50px;
+    padding: 20px;
+    border-radius: 10px;
+	}
+
+	#advertising .container-advertising .float-header {
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    display: block;
+	}
+
+
+	#advertising .container-advertising .float-header .header3 {
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 50px;
+	}
+
+	#advertising .container-advertising .float-header .header3 h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+	}
+
+	#advertising .container-advertising .float-header .header3 h3 span.orange {
+    color: orange;
+	}
+
+
+
+
+	#advertising .container-advertising .float-header .header4 {
+    max-height: 100px;
+    width: 86%;
+    height: 100%;
+    margin-left: 39px;
+    /* text-align: center; */
+	}
+
+
+	#advertising .container-advertising .float-header .header4 h4 {
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    /* text-align: justify; */
+    /* overflow: auto; */
+    margin-bottom: 20px;
+	}
+
+
+
+	#advertising .container-advertising .float-header .header4 h4 span.orange {
+    color: orange;
+	}	
+
+
+
+	#advertising .container-advertising .float-deals {
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    display: block;
+	}
+
+
+
+	#advertising .container-advertising .promos {
+    max-height: 200px;
+    height: 100%;
+    display: block;
+    margin-left: -10px;
+    margin-top: 35px;
+    margin-bottom: 20px;
+	}
+
+
+
+	#advertising .container-advertising .promos .links {
+    width: 308px;
+    padding: 10px 10px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons {
+    height: 100px;
+    width: 100%;
+    margin-left: 0px;
+    text-transform: uppercase;
+	}
+
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange1 {
+    height: 50px;
+    width: 131px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-top: 40px;
+    font-weight: 600;
+	}
+
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange2 {
+    height: 50px;
+    width: 150px;
+    display: inline-block;
+    font-weight: 600;
+	}
+
+
+}
+
+
+
+
+
+@media only screen and (max-width: 320px) {
+
+
+	#advertising {
+    background: #1e5799;
+    background: -moz-linear-gradient(45deg, #1e5799 0%, #2989d8 50%, #207cca 51%, #7db9e8 100%);
+    background: -webkit-linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    background: linear-gradient(45deg, #1e5799 0%,#2989d8 50%,#207cca 51%,#7db9e8 100%);
+    width: 100%;
+    height: 100vh;
+	}
+
+	#advertising .container-advertising {
+    width: 100%;
+    height: 100%;
+	}
+
+
+	#advertising .container-advertising .filter {
+    width: 85%;
+    background: linear-gradient(rgba(0,0,0,0.4738270308123249) 100%, rgba(254,254,254,1) 100%, rgba(255,255,255,0.196516106442577) 100%);
+    margin-left: 25px;
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 10px;
+	}
+
+
+	#advertising .container-advertising .float-header {
+    max-height: 300px;
+    height: 100%;
+    width: 100%;
+    display: block;
+	}
+
+
+	#advertising .container-advertising .float-header .header3 {
+    max-height: 150px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 25px;
+	}
+
+
+	#advertising .container-advertising .float-header .header3 h3 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+	}
+
+
+	#advertising .container-advertising .float-header .header3 h3 span.orange {
+    color: orange;
+	}
+
+
+	#advertising .container-advertising .float-header .header4 {
+    max-height: 100px;
+    width: 86%;
+    height: 100%;
+    margin-left: 0px;
+	}
+
+
+	#advertising .container-advertising .float-header .header4 h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 42px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 0px;
+	}
+
+
+	#advertising .container-advertising .float-header .header4 h4 span.orange {
+    color: orange;
+	}
+
+
+	#advertising .container-advertising .float-deals {
+    max-height: 300px;
+    width: 100%;
+    display: block;
+	}
+
+
+	#advertising .container-advertising .promos {
+    max-height: 200px;
+    height: 100%;
+    display: block;
+    margin-left: -10px;
+    margin-top: -1px;
+    margin-bottom: -8px;
+	}
+
+
+	#advertising .container-advertising .promos .links {
+    width: 252px;
+    padding: 10px 10px;
+    border: 1px solid #fff;
+    border-radius: 8px;
+	}
+
+	ol, ul {
+    list-style: none;
+	}
+
+
+	#advertising .container-advertising .promos ul li {
+    padding: 10px 0;
+	}
+
+
+	#advertising .container-advertising .promos .far {
+    color: orange;
+    font-size: 20px;
+    margin-right: 15px;
+    position: relative;
+    top: -1px;
+	}
+
+
+	#advertising .container-advertising .promos ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1rem;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons {
+    height: 100px;
+    width: 101%;
+    margin-left: 0px;
+    text-transform: uppercase;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange1 {
+    height: 50px;
+    width: 99px;
+    display: inline-block;
+    margin-left: 3px;
+    margin-top: 40px;
+    font-weight: 600;
+    margin-right: 10px;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 7px;
+    border: 1px solid orange;
+    border-radius: 45px;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange2 {
+    height: 50px;
+    width: 112px;
+    display: inline-block;
+    font-weight: 600;
+	}
+
+
+	#advertising .container-advertising .float-deals .ad-buttons .orange2 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    padding: 7px;
+    border: 1px solid orange;
+    border-radius: 45px;
+	}
+
+
+	
+}

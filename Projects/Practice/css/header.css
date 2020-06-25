@@ -1,0 +1,240 @@
+header {
+	background: url(https://www.themandagies.com/wp-content/uploads/2018/11/New-York-City-Brooklyn-Bridge-The-Mandagies-Best-Photo-Spots-in-NYC-51.jpg); 
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+	overflow: auto;
+}
+
+header .container {	
+	width: 100%;
+	display: inline-block;
+	z-index: 0;
+}
+
+
+
+header .container .filter-header {
+	background: linear-gradient(rgba(0,0,0,0.3757878151260504) 100%, rgba(254,254,254,1) 100%, rgba(255,255,255,0.196516106442577) 100%);
+	width: 100%;
+	max-height: 200px;
+	height: 102px;
+}
+
+header .container .filter {
+	background: linear-gradient(rgba(0,0,0,0.3757878151260504) 100%, rgba(254,254,254,1) 100%, rgba(255,255,255,0.196516106442577) 100%);
+	width: 100%;
+	max-height: auto;
+	height: auto;
+}
+
+header .container .logo {
+	display: inline-block;
+	float: left;
+	max-width: 20%;	
+	width: 15%;
+	height: 100%;
+	background-color: #fff;
+	text-align: center;
+}
+
+header .container .logo img {
+	background-color: #fff;
+	max-height: 100%;
+	width: 100%;
+}
+
+header .container .header-buttons {
+	float: right;
+	display: inline-block;
+	width: 26%;
+	text-transform: uppercase;
+	font-weight: 700;
+	text-align: center;
+}
+
+header .container .header-buttons .log-in {
+	display: inline-block;
+	margin: 40px 0 0 0;
+}
+
+header .container .header-buttons .log-in a{
+	margin-right: 30px;
+	background-color: #d16f1f;
+	padding: 15px 20px;
+	border-radius: 45px;
+	text-decoration: none;
+	color: #fff;
+	-webkit-box-shadow: 1px 6px 58px 4px rgba(0,0,0,0.62);
+-moz-box-shadow: 1px 6px 58px 4px rgba(0,0,0,0.62);
+box-shadow: 1px 6px 58px 4px rgba(0,0,0,0.62);
+}
+
+header .container .header-buttons .log-in a:hover {
+	background-color: orange;
+	transition: ease-in-out 0.4s;
+}
+
+header .container .header-buttons .sign-up a{
+	background-color: #d16f1f;
+	padding: 15px 20px;
+	border-radius: 45px;
+	text-decoration: none;
+	color: #fff;
+	-webkit-box-shadow: 1px 6px 58px 4px rgba(0,0,0,0.62);
+-moz-box-shadow: 1px 6px 58px 4px rgba(0,0,0,0.62);
+box-shadow: 1px 6px 58px 4px rgba(0,0,0,0.62);
+}
+
+header .container .header-buttons .sign-up a:hover {
+	background-color: orange;
+	transition: ease-in-out 0.4s;		
+}
+
+header .container .header-buttons .sign-up {
+	display: inline-block;
+	margin: 41px 0 0 0;
+}
+
+header .container .navigation {
+	z-index: 2;	
+	display: inline-block;
+	float: left;
+	margin: 38px 0 0 15px;
+	widows: 65%;
+	font-weight: 700;	
+	width: 57%;
+}
+
+header .container .navigation ul {
+	display: inline-block;
+}
+
+header .container .navigation ul li{
+	display: inline-block;
+}
+
+header .container .navigation ul li a {
+	font-size: 1.5rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 0 20px;
+	color: #fff;
+}
+
+header .container .navigation ul li a:hover {
+	color: orange;
+	transition: ease-in-out 0.4s;
+}
+
+
+
+
+
+
+/*=========== WIDESCREEN ===================*/
+
+@media only screen and (max-width: 1407px) {
+  
+}
+
+
+
+/*=========== LAPTOPS ===================*/
+
+@media only screen and (max-width: 1215px) {
+  
+}
+
+
+
+/*============ TABLETS ==================*/
+
+@media only screen and (max-width: 1023px) {
+ 
+}
+
+
+/*========== MOBILE PHONE ===============*/
+
+@media only screen and (max-width: 767px) {
+	
+
+
+
+		header {
+		background: url(https://www.themandagies.com/wp-content/uploads/2018/11/New-York-City-Brooklyn-Bridge-The-Mandagies-Best-Photo-Spots-in-NYC-51.jpg); 
+		background-size: cover;
+		background-position: center;
+		height: 100vh;
+		z-index: 0;
+	}
+
+		header .container {	
+		width: 100%;
+		display: inline-block;
+		z-index: 1;
+	}
+
+		header .container .filter-header {
+		background: #fff;
+		width: 100%;
+		max-height: 110px;
+		height: 103px;
+		overflow: auto;
+		background-color: #fff;
+	}
+
+	 	header .container .logo {
+		z-index: 2;
+		display: inline-block;
+		float: left;
+		max-width: 50%;	
+		width: 50%;
+		margin-left: 23%;
+		text-align: center;
+	}
+
+
+		header .container .logo img {
+	    height: 100%;
+	    width: 72%;
+	    border-radius: 0;
+	    margin: 0;
+
+	}
+
+		
+		header .container .filter-header .header-buttons {
+			float: left;
+			width: 50%;
+			margin: 0;
+			-webkit-box-shadow: -200px -200px 0px -200px rgba(0,0,0,0.75);
+			-moz-box-shadow: -200px -200px 0px -200px rgba(0,0,0,0.75);
+			box-shadow: -200px -200px 0px -200px rgba(0,0,0,0.75);
+			display: none;
+		}
+
+
+		header .container .navigation {
+			display: none;
+	}
+
+		header .container .filter-header .log-in {
+			display: none;
+	}
+
+		header .container .filter-header .header-buttons .sign-up {
+			float: left;
+			margin-top: -60px;
+			margin-left: 10px;
+		}
+	
+		header .container .filter-header .header-buttons .sign-up a {
+			-webkit-box-shadow: 2px 3px 25px -1px rgba(0,0,0,0.75);
+-moz-box-shadow: 2px 3px 25px -1px rgba(0,0,0,0.75);
+box-shadow: 2px 3px 25px -1px rgba(0,0,0,0.75);
+
+
+}

@@ -1,0 +1,77 @@
+#paris-photos {
+	max-height: 667px;
+	width: 100%;
+	height: 100%;
+}
+
+#paris-photos .container-paris {
+	width: 100%;
+	height: 100%
+}
+
+#paris-photos .container-paris .hotels-paris .photos-paris {
+	list-style: none;
+    width: 100%;
+}
+
+#paris-photos .container-paris .hotels-paris .photos-paris li {
+	display: block;
+    float: left;
+    width: 25%;
+}
+
+#paris-photos .container-paris .hotels-paris .photos-paris .photo {
+	width: 100%;
+	height: 100%;
+    margin: 0;
+    overflow: hidden;  
+    background-color: #000;
+}
+
+#paris-photos .container-paris .hotels-paris .photos-paris .photo img {
+	opacity: 0.5;
+    width: 100%;
+    height: auto;
+    transform: scale(1.15);
+    transition: transform 0.3s, opacity 0.5s;
+}
+
+#paris-photos .container-paris .hotels-paris .photos-paris .photo img:hover {
+	opacity: 1;
+    transform: scale(1.03); 
+}
+
+
+
+
+
+
+
+/*=========== WIDESCREEN ===================*/
+
+@media only screen and (max-width: 1407px) {
+  
+}
+
+
+
+/*=========== LAPTOPS ===================*/
+
+@media only screen and (max-width: 1215px) {
+  
+}
+
+
+
+/*============ TABLETS ==================*/
+
+@media only screen and (max-width: 1023px) {
+ 
+}
+
+
+/*========== MOBILE PHONE ===============*/
+
+@media only screen and (max-width: 767px) {
+  
+}

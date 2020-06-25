@@ -1,0 +1,56 @@
+div{
+    background-color: red;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+p{
+  background-color: yellow;  
+  margin: 0;
+  padding: 15px;
+}
+
+div p:nth-child(2) {
+    background-color: green;
+}
+
+div p:first-child {
+    background-color: purple;
+}
+
+div p:last-child {
+    background-color: blue;
+}
+
+div#first > p {
+    background-color: skyblue;
+}
+
+p:hover {
+    background-color: springgreen;
+}
+
+div#first > p:hover {
+    background-color: springgreen;
+}
+
+div p:last-child:hover {
+    background-color: springgreen;
+}
+
+div p:nth-child(2):hover {
+    background-color: springgreen;
+}
+
+div p:first-child:hover {
+    background-color: springgreen;
+}
+
+div p {
+    background-color: tomato !important;
+}
+
+input[type="text"] {
+    color: red; 
+    font-size: 20px;
+}
